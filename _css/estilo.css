@@ -1,0 +1,251 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'tituloprincipal';
+    src: url("../_fonts/Gotham-Thin.otf");
+}
+
+@font-face {
+    font-family: 'textobotoes';
+    src: url("../_fonts/GothamBook.ttf");
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+div#interface {
+    width: 1190px;
+    background-color: rgb(17, 17, 17);
+    margin: 1px auto 5px auto;
+    padding: 15px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 940px;
+    top: 140px
+}
+
+header#cabecalho {
+    border-bottom: 2px solid;
+    height: 60px;
+    color: rgb(17, 17, 17);
+}
+
+header#cabecalho h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'tituloprincipal', sans-serif;
+    font-size: 40px;
+    height: 20px;
+}
+
+article {
+    text-align: justify;
+    width: 620pt;
+    left: 200px;
+}
+
+article#specs {
+    text-align: justify;
+    width: 580pt;
+}
+
+
+/* formatação de texto */
+
+p {
+    text-align: justify;
+    color: rgb(209, 209, 209);
+    font-family: arial, sans-serif;
+    line-height: 22pt;
+    font-size: 14pt;
+}
+
+h1 {
+    color: white;
+    font-family: 'tituloprincipal', sans-serif;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'tituloprincipal', sans-serif;
+}
+
+h3 {
+    color: rgb(175, 175, 175);
+    font-family: 'tituloprincipal', sans-serif;
+}
+
+
+/* formatação de imagens com legendas */
+
+figure.fotoleg {
+    position: relative;
+    border: 4px solid rgb(250, 250, 250);
+    box-shadow: 1px 1px 4px rgb(15, 119, 255);
+    right: 40px;
+}
+
+figure.fotoleg img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotoleg figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 21, 44, 0.603);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    font-size: 20px;
+    text-align: center;
+}
+
+figure.fotoleg:hover figcaption {
+    opacity: 2;
+    /* imagens sem legenda */
+}
+
+figure#tabela {
+    position: relative;
+    border: 4px solid rgb(250, 250, 250);
+    box-shadow: 1px 1px 4px rgb(15, 119, 255);
+}
+
+
+/* formatação do menu */
+
+nav#menu {
+    display: block;
+    color: white;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(0, 31, 88);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    transition: background-color 0.7s;
+    font-family: 'textobotoes', sans-serif;
+}
+
+nav#menu li:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: rgb(193, 212, 255);
+    text-decoration: none;
+}
+
+
+/* texto principal*/
+
+section#corpo {
+    width: 900px;
+    float: left;
+}
+
+figure#bannerlateral {
+    top: 430px;
+    position: absolute;
+    left: 920px;
+    height: 100%;
+}
+
+
+/* texto secundario*/
+
+aside#lateral {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {
+    float: right;
+}
+
+article#textofinal p {
+    color: rgb(197, 197, 197);
+    font-size: 12pt;
+    font-family: "textobotoes";
+}
+
+article#textofinal h2 {
+    color: rgb(220, 239, 255);
+}
+
+article#textofinal {
+    width: 640px;
+}
+
+video {
+    margin-top: 15px;
+    width: 500px;
+}
+
+
+/* texto rodape*/
+
+article#textspc {
+    padding-bottom: 50px;
+}
+
+#linha-horizontal {
+    width: 1200px;
+    border: 1px solid rgb(0, 50, 143);
+    margin-bottom: 40px;
+}
+
+footer#rodape {
+    clear: both;
+    color: rgb(195, 207, 218);
+    text-align: center;
+    font-size: 13px;
+}
+
+footer a {
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
+
+
+/*formatação informetas*/
+
+hgroup#infometas h1 {
+    font-size: 45pt;
+    text-align: justify;
+    line-height: 70px;
+    text-shadow: 2px 1px 4px rgb(66, 66, 66);
+}
+
+hgroup#infometas h3 {
+    font-size: 15pt;
+}
+
+.segredo {
+    color: rgb(17, 17, 17);
+    ;
+}
+
+.segredo:hover {
+    color: rgb(138, 138, 138);
+}

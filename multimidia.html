@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>sonyvroculos</title>
+
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <link rel="stylesheet" href="_css/media.css" />
+
+
+</head>
+
+<script src="_javascript/funcoes.js"></script>
+
+<body>
+
+    <div id="interface">
+
+        <header id="cabecalho">
+
+            <hgroup id="titulo">
+
+                <h1>Playstation Virtual Reality</h1>
+                <h2></h2>
+
+            </hgroup>
+
+            <figure>
+                <img id="icone" src="_imagens/vrsonypeq.png" height="40%">
+            </figure>
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudaFoto('_imagens/vrsonypeq.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html"> Home</a></li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html"> Especificações</a></li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html"> Fotos </a></li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html"> Multimídia</a></li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Sobre Este Site</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <hgroup id="infometas">
+
+            <h1>Esta é a Central de <br> Multimídia do nosso site</h1>
+            <h3 class="segredo">Site desenvolvido por Eduardo Leite (Atualizado em 22/01/2022)</h3>
+
+        </hgroup>
+
+        <article id="textoum">
+
+            <p>Assista nossa galeria de videos.</p>
+        </article>
+
+        <div id="videoseaudios">
+
+            <video id="filme" controls><source src="_media/video1.mp4" type="video/mp4"/></video>
+            <video id="filme2" controls><source src="_media/video2.mp4" type="video/mp4"/></video>
+            <video id="filme3" controls><source src="_media/video3.mp4" type="video/mp4"/></video>
+            <video id="filme4" controls><source src="_media/video4.mp4" type="video/mp4"/></video>
+
+            <audio id="musica"> </audio>
+
+        </div>
+
+        <footer id="rodape">
+            <br/>
+            <h3>Copyright 2022 - by Eduardo Leite<br/>
+                <a href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/" target="_blank">Linkedin</a> |
+                <a href="https://api.whatsapp.com/send?phone=5588999257652" target="_blank"> Whatsapp</a></h3>
+        </footer>
+
+</body>
+
+</html>

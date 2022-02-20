@@ -1,0 +1,73 @@
+@charset "UTF 8";
+@font-face {
+    font-family: "textos";
+    src: url("../_fonts/GothamBook.ttf");
+}
+
+ul#fotos {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#fotos li {
+    float: left;
+    width: 280px;
+    height: 140px;
+    margin: 20px;
+    color: rgb(201, 201, 201);
+    border-radius: 25px;
+    line-height: 220px;
+    background-color: black;
+    padding: 5px;
+}
+
+ul#fotos span {
+    opacity: 0;
+    font-family: 'textos', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 48, 70, 0.76);
+    border-radius: 10px;
+    background-color: rgba(14, 14, 14, 0.767);
+    font-size: 10pt;
+    padding: 8px;
+}
+
+ul#fotos li:hover {
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+}
+
+ul#fotos li:hover span {
+    opacity: 1;
+}
+
+ul#fotos li#foto1 {
+    background: url("../_imagens/galeria-01.jpeg") no-repeat;
+    background-position: 10% 40%;
+}
+
+ul#fotos li#foto2 {
+    background: url("../_imagens/galeria-02.jpg") no-repeat;
+    background-position: 40% 40%;
+}
+
+ul#fotos li#foto3 {
+    background: url("../_imagens/galeria-03.jpg") no-repeat;
+    background-position: 30% 10%;
+}
+
+ul#fotos li#foto4 {
+    background: url("../_imagens/galeria-04.jpg") no-repeat;
+    background-position: 20% 20%;
+}
+
+ul#fotos li#foto5 {
+    background: url("../_imagens/galeria-05.jpg")no-repeat;
+    background-position: 40% 40%;
+}
+
+ul#fotos li#foto6 {
+    background: url("../_imagens/galeria-06.jpg")no-repeat;
+}

@@ -1,0 +1,27 @@
+@charset "UTF 8";
+@font-face {
+    font-family: 'textos';
+    src: url("../projeto-playstation-vr/_fonts/GothamLight.ttf");
+}
+
+p {
+    font-family: 'textos', sans-serif;
+}
+
+section#conteudo {
+    float: left;
+}
+
+iframe#framespecs {
+    padding-left: 65px;
+    padding-top: 15px;
+    width: 620px;
+    height: 300px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#framespecs::-webkit-scrollbar {
+    overflow: hidden;
+    display: none;
+}
