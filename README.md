@@ -1,11 +1,7 @@
 # PlaystationVR
-<divs style="display:flex; justify-content:center; aling-items:center; flex-direction: column;">
-  <div><img src="oculos-vr.png"/></div>
 <div>
   <p>Link do projeto em produção: https://playstationvr.000webhostapp.com/index.html </p>
 </div>
-
-
     
 ## Detalhes
                                                                                  |                                                                                                 | **tecnologias**/ | HTML5, CSS3 e JavaScript|
