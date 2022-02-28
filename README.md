@@ -1,17 +1,14 @@
 # PlaystationVR
 <divs style="display:flex; justify-content:center; aling-items:center; flex-direction: column;">
-  <div><img src="oculos-vr.png" /></div>
+  <div><img src="oculos-vr.png"/></div>
 <div>
-  <p>Este repositório tem o intuito principal de mostrar o resultado do desafio de clonagem de uma interface. O desenvolvimento foi inteiramente inspirado na Netflix.</p>
-  <p>Link do projeto em produção:https://playstationvr.000webhostapp.com/index.html </p>
+  <p>Link do projeto em produção: https://playstationvr.000webhostapp.com/index.html </p>
 </div>
- </div>
+
 
     
 ## Detalhes
-                                                                                 |                                                                                                                           |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **tecnologias**/ | HTML5, CSS3 e JavaScript|
+                                                                                 |                                                                                                 | **tecnologias**/ | HTML5, CSS3 e JavaScript|
 | **inspiração**/  | UI Clone da Netflix, com limitações e adaptações                         |
 
 
