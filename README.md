@@ -1,6 +1,6 @@
 # ProjetoSitePlaystationVR
 
-<img src:"_imagens/print-demonstrativo.png"
+<img src="_imagens/print-demonstrativo.png"
 
 <div>
   <p>Link do projeto em produção: https://playstationvr.000webhostapp.com/index.html </p>
