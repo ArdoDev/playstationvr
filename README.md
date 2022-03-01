@@ -1,6 +1,6 @@
 <img src="_imagens/print-demonstrativo.png">
 
-# ProjetoSitePlaystationVR
+# SitePlaystationVR
 <div>
   <p>Link do projeto em produção: https://playstationvr.000webhostapp.com/index.html </p>
 </div>
@@ -10,7 +10,7 @@
 | HTML5, CSS3 e JavaScript | 
 
 
-## Contribuições
+## Sobre o Projeto
 
 <p>Este é um projeto aberto desenvolvido como desafio utilizando o meu aprendizado do curso de HTML, CSS e Javascript da plataforma Curso em Vídeo.</p>
 
