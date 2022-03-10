@@ -2,7 +2,7 @@
 
 # SitePlaystationVR
 <div>
-  <p>Link do projeto em produção: https://playstationvr.000webhostapp.com/index.html </p>
+  <p>Link do projeto em produção: https://playstationvrproj.netlify.app/ </p>
 </div>
     
 ## Detalhes
