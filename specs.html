@@ -5,9 +5,13 @@
 
     <meta charset="UTF-8" />
     <title>sonyvroculos</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/estilo.css" />
     <link rel="stylesheet" href="_css/specs.css" />
+    <link rel="shortcut icon" href="./_imagens/icon.jpg" type="image/x-icon">
+
 
 
 </head>
@@ -19,6 +23,23 @@
 
     <div id="interface">
 
+        <nav class="hamburger">
+
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="specs.html"> Especificações</a></li>
+                    <li><a href="fotos.html"> Fotos </a></li>
+                    <li><a href="multimidia.html"> Multimídia</a></li>
+                    <li><a href="fale-conosco.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="content">
+
+        </nav>
         <header id="cabecalho">
             <hgroup id="titulo">
 
@@ -44,38 +65,40 @@
             </nav>
 
         </header>
-        <hgroup id="infometas">
+    <hgroup id="infometas">
+            
+            <h1>Saiba tudo sobre <br>o Oculos VR da Sony</h1>
+            <p class="segredo">Site desenvolvido por Eduardo Leite (Atualizado em 22/01/2022)</p>
 
-            <h1>Veja o Playstation VR<br>com mais Detalhes</h1>
-            <h3 class="segredo">Site desenvolvido por Eduardo Leite (Atualizado em 22/01/2022)</h3>
+    </hgroup>
 
-        </hgroup>
-
-        <article id="specs">
+    <article id="specs">
             <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
-        </article>
-        <section id="conteudo">
+    </article>
+
+    <section id="conteudo">
+    
             <img src="_imagens/projvrspec2.png" usemap="#meumapa" />
-            <map name="meumapa">
-<area shape="rect" coords="145,245,33,136" href="playstationvr.html#tela" target="janela"/>
-<area shape="circle" coords="198,185,12" href="playstationvr.html#microfone" target="janela"/>
-<area shape="circle" coords="368,189,20" href="playstationvr.html#sensores" target="janela"/>
-<area shape="rect" coords="374,225,347,256" href="playstationvr.html#complemento" target="janela"/>
-</map>
-        </section>
-        <iframe src="playstationvr.html" name="janela" id="framespecs" scrolling="no"></iframe>
+    
+        <map name="meumapa">
+            <area shape="rect" coords="145,245,33,136" href="playstationvr.html#tela" target="janela" />
+            <area shape="circle" coords="198,185,12" href="playstationvr.html#microfone" target="janela" />
+            <area shape="circle" coords="368,189,20" href="playstationvr.html#sensores" target="janela" />
+            <area shape="rect" coords="374,225,347,256" href="playstationvr.html#complemento" target="janela" />
+        </map>
+    </section>
 
+    <iframe src="playstationvr.html" name="janela" id="framespecs" scrolling="no"></iframe>
+</div>
+    <footer id="rodape">
 
+        <p>Copyright 2022 - by Eduardo Leite<br />
+            <a href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/" target="_blank">Linkedin</a> |
+            <a href="https://api.whatsapp.com/send?phone=5588999257652" target="_blank"> Whatsapp</a>
+        </p>
+    </footer>
 
-
-        <footer id="rodape">
-            <br/>
-            <h3>Copyright 2022 - by Eduardo Leite<br/>
-                <a href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/" target="_blank">Linkedin</a> |
-                <a href="https://api.whatsapp.com/send?phone=5588999257652" target="_blank"> Whatsapp</a></h3>
-        </footer>
-    </div>
 </body>
 
 </html>

@@ -2,31 +2,42 @@
 <html lang="pt-br">
 
 <head>
-
     <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sonyvroculos</title>
-
     <link rel="stylesheet" href="_css/estilo.css" />
     <link rel="stylesheet" href="_css/fotos.css" />
-
-
+    <link rel="shortcut icon" href="./_imagens/icon.jpg" type="image/x-icon">
 
 </head>
 
 <script src="_javascript/funcoes.js"></script>
 
 <body>
-
-
     <div id="interface">
+        <nav class="hamburger">
 
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="specs.html"> Especificações</a></li>
+                    <li><a href="fotos.html"> Fotos </a></li>
+                    <li><a href="multimidia.html"> Multimídia</a></li>
+                    <li><a href="fale-conosco.html">Contato</a></li>
+                </ul>
+                
+            </div>
+
+        </nav>
         <header id="cabecalho">
             <hgroup id="titulo">
-
                 <h1>Playstation Virtual Reality</h1>
                 <h2></h2>
-
-
             </hgroup>
 
             <figure>
@@ -49,12 +60,11 @@
         <hgroup id="infometas">
 
             <h1>Bem-vindo a nossa<br>Galeria de fotos</h1>
-            <h3 class="segredo">Site desenvolvido por Eduardo Leite (Atualizado em 22/01/2022)</h3>
+            <p class="segredo">Site desenvolvido por Eduardo Leite (Atualizado em 22/01/2022)</p>
 
         </hgroup>
 
         <article id="textoum">
-
             <p>Várias belas imagens que mostram algumas das principais características do grande <br>Playstation VR como recursos e propriedades que estão impressionando o mundo inteiro.</p>
         </article>
 
@@ -69,14 +79,13 @@
 
         </ul>
 
-
-        <footer id="rodape">
-            <br/>
-            <h3>Copyright 2022 - by Eduardo Leite<br/>
-                <a href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/" target="_blank">Linkedin</a> |
-                <a href="https://api.whatsapp.com/send?phone=5588999257652" target="_blank"> Whatsapp</a></h3>
-        </footer>
     </div>
+        <footer id="rodape">
+            <p>Copyright 2022 - by Eduardo Leite<br/>
+                <a href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/" target="_blank">Linkedin</a> |
+                <a href="https://api.whatsapp.com/send?phone=5588999257652" target="_blank"> Whatsapp</a>
+            </p>
+        </footer>
 </body>
 
 </html>

@@ -71,3 +71,9 @@ ul#fotos li#foto5 {
 ul#fotos li#foto6 {
     background: url("../_imagens/galeria-06.jpg")no-repeat;
 }
+
+@media (max-width: 700px) {
+    ul#fotos {
+    display: flex;
+    flex-direction: column;}
+}
