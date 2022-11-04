@@ -4,10 +4,7 @@
   src: url("../_fonts/Gotham-Thin.otf");
 }
 
-@font-face {
-  font-family: "textobotoes";
-  src: url("../_fonts/GothamBook.ttf");
-}
+
 
 * {
   padding: 0;
