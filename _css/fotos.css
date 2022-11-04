@@ -75,5 +75,7 @@ ul#fotos li#foto6 {
 @media (max-width: 700px) {
     ul#fotos {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    margin-left: -3%;
+}
 }

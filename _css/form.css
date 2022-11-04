@@ -1,85 +1,61 @@
 @charset "UTF 8";
 @font-face {
-    font-family: 'textos';
-    src: url("../projeto-playstation-vr/_fonts/GothamLight.ttf");
-    font-family: 'textoleg';
-    src: url("../_fonts/GothamBook.ttf");
+  font-family: "textos";
+  src: url("../_fonts/GothamBook.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+input, textarea{
+outline: none;
+border: none;
+font-family: "textos";
+color: rgb(148, 148, 148);
+background-color: rgb(34, 34, 34);
 }
 
-div#formulario {
-    font-family: 'textos', sans-serif;
-    background-color: rgb(0, 0, 0);
-    padding: 40px;
-    border-radius: 20px;
-    display: flex;
-    float: left;
+input{
+   height: 4vh;
+   width: 18vw;
+}
+.forms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  margin-left: 5rem;
+  
 }
 
-input {
-    font-family: 'textos', sans-serif;
-    margin-left: 8px;
-    padding: 5px;
-    border-radius: 5px;
-    width: 250px;
+#mensagem {
+  color: white;
+  font-family: "textos";
+  border: none;
+  margin-right: 5rem;
+  background-color: black;
+  padding: 15px;
+  border-radius: 15px;
+  
 }
 
-#corB {
-    width: 60px;
-    padding: 0;
-}
-
-textarea {
-    font-size: 11pt;
-    font-family: 'textos', sans-serif;
-    border-radius: 5px;
-}
-
-legend {
-    font-family: 'textos', sans-serif;
-    color: rgb(11, 110, 190);
-    font-size: 16pt;
-}
-
-input#botA {
-    margin-left: 280px;
-}
-
-p.submit {
-    padding: 0;
-    margin: 0px;
-    float: right;
-}
-
-p#marcador {
-    display: flex;
-    float: left;
-    margin-left: 5px;
-}
-
-fieldset {
+#calculadora{
+    color: white;
+    font-family: "textos";
     border: none;
-}
-
-fieldset#devou {
-    margin-right: 100px;
-}
-
-p#paragrafo {
-    font-family: 'textos', sans-serif;
-    width: 820px;
-}
-
-input#botao {
-    width: 140px;
-}
-
-div#calculadora {
-    display: flex;
-    float: left;
-    margin-top: 50px;
-    margin-left: 40px;
-    font-family: 'textos', sans-serif;
     background-color: black;
-    padding: 40px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 15px;
+   
+}
+
+legend{
+    background-color: rgb(1, 9, 32);
+    padding: 15px;
+    border-bottom-right-radius: 25px;
+
+}
+
+@media screen {
+    
 }

@@ -50,11 +50,13 @@ header#cabecalho {
 
 header#cabecalho h1 {
   color: rgb(255, 255, 255);
-  font-family: "tituloprincipal", sans-serif;
-  font-size: 1.5rem;
+  font-family: "titulo", sans-serif;
+  font-size: 2.5rem;
   height: 20px;
   margin-left: 5vw;
   margin-top: 25px;
+  font-weight: bolder;
+  text-shadow: #00449c 3px 1px 1px;
 }
 
 article {
@@ -137,10 +139,6 @@ figcaption {
 
 /* texto principal*/
 
-#corpo {
-  display: ;
-}
-
 #bannerlateral {
   position: absolute;
   right: 5vw;
@@ -152,6 +150,7 @@ figcaption {
 
 video {
   margin-left: 5%;
+  width: auto;
 }
 
 /* texto rodape*/
@@ -178,7 +177,6 @@ hgroup#infometas h1 {
   margin-left: 5vw;
 }
 
-
 .segredo {
   color: rgb(17, 17, 17);
   margin-left: 5%;
@@ -201,26 +199,34 @@ hgroup#infometas h1 {
   .hamburger {
     display: block;
   }
+
+  .segredo {
+    color: rgb(17, 17, 17);
+    margin-left: 2.5%;
+    font-size:15px ;
+    width: 25%;
+  }
+
   #menu {
     display: none;
   }
-  
+  a {
+    font-family: textobotoes;
+    font-size: 5pt;
+  }
+  hgroup#infometas h1 {
+    font-size: 8vw;
+  }
+
   header#cabecalho img#icone {
     position: absolute;
-    left: 48vw;
-    top: 35%;
-    width: 35vw;
+    left: 35vw;
+    top: 25%;
+    width: 60vw;
     height: 25%;
     opacity: 25%;
   }
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
-    font-family: "Oswald", sans-serif;
-  }
   .wrapper {
     position: fixed;
     top: 0;
@@ -249,7 +255,8 @@ hgroup#infometas h1 {
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 10px;
+    font-family: textobotoes;
     cursor: pointer;
     /*color: #fff;*/
     /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
@@ -367,6 +374,7 @@ hgroup#infometas h1 {
 
   #active:checked ~ .wrapper ul li a {
     opacity: 1;
+    font-size: 15pt;
   }
   .wrapper ul li a {
     transition: opacity 1.2s, transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -378,4 +386,40 @@ hgroup#infometas h1 {
     transition-delay: 0.6s;
     transform: translateX(-100px);
   }
+
+  #textoum{
+text-align: left;
+  }
+  article > h2{
+    text-align: left;
+  
+    
+  }
+
+  article {
+    text-align: justify;
+    width: 76vw;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+  }
+
+  figure.fotoleg img {
+    width: 75vw;
+    margin: 25px;
+    margin-left: 2%;
+  }
+  
+  figcaption {
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+  video {
+    margin-left: 2%;
+    width: 75vw;
+  }
+  footer a{
+    font-size: 15pt;
+  }
+
 }

@@ -22,7 +22,6 @@
     }
 </script>
 
-
 <body>
 
     <div id="interface">
@@ -45,9 +44,9 @@
         </nav>
         <header id="cabecalho">
             <hgroup id="titulo">
-                <h1>Playstation Virtual Reality</h1>
-                <h2></h2>
+                <h1>PsVR</h1>
             </hgroup>
+
 
             <figure>
                 <img id="icone" src="_imagens/vrsonypeq.png" height="40%">
@@ -56,76 +55,84 @@
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul type="disc">
-                    <li onmouseover="mudaFoto('_imagens/vrsonypeq.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="index.html"> Home</a></li>
-                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="specs.html"> Especificações</a></li>
-                    <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="fotos.html"> Fotos </a></li>
-                    <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="multimidia.html"> Multimídia</a></li>
-                    <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Sobre Este Site</a></li>
+                    <li onmouseover="mudaFoto('_imagens/vrsonypeq.png')" onmouseout="mudaFoto('_imagens/contato.png')">
+                        <a href="index.html"> Home</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('_imagens/contato.png')"><a href="specs.html"> Especificações</a></li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a
+                            href="fotos.html"> Fotos </a></li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/contato.png')">
+                        <a href="multimidia.html"> Multimídia</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a
+                            href="fale-conosco.html">Sobre Este Site</a></li>
                 </ul>
             </nav>
 
         </header>
 
-        <hgroup id="infometas">
+     
+            <hgroup id="infometas">
 
-            <h1> Gostou do site? Fale <br> para o Desenvolvedor!</h1>
-            <h3 class="segredo">Site desenvolvido por Eduardo Leite (Atualizado em 19/02/2022)</h3>
+                <h1>Esta é a Central de <br> Multimídia do nosso site</h1>
+                <p class="segredo">Site desenvolvido por Eduardo Leite (Atualizado em 22/01/2022)</p>
 
-        </hgroup>
+            </hgroup>
+            <article id="textoum">
+                <p id="paragrafo">Olá, tudo bem? Espero que sim, me chamo Eduardo Leite e sou graduando do curso de TSI
+                    - Tecnologia em Sistemas para Internet pelo Instituto Federal da Paraíba(Guarabira), este é meu
+                    primeiro site e quero agradecer muito ao Gustavo Guanabara por
+                    esse curso incrível e completamente gratuito que apesar de antigo contem conhecimentos extremamente
+                    relevantes para quem está embarcando e se aventurando nesse ramo da tecnologia. </p>
+            </article>
+            <div class="forms">
+                <div id="mensagem">
+                    
+                        <legend>Identificação do Usuário</legend>
 
-        <p id="paragrafo">Olá, tudo bem? Espero que sim, me chamo Eduardo Leite e sou graduando do curso de TSI - Tecnologia em Sistemas para Internet pelo Instituto Federal da Paraíba(Guarabira), este é meu primeiro site e quero agradecer muito ao Gustavo Guanabara por
-            esse curso incrível e completamente gratuito que apesar de antigo contem conhecimentos extremamente relevantes para quem está embarcando e se aventurando nesse ramo da tecnologia. </p>
+                        <form id="" method="post" onsubmit="validaForm(); return false;" class="form">
 
-        <head>
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        </head>
+                            <p class="name">
+                                <label for="name">Nome</label>
+                                <input type="text" placeholder="Seu Nome" />
+                            </p>
+                            <p class="email">
+                                <label for="email">E-mail</label>
+                                <input type="text" placeholder="Digite seu email" />
+                            </p>
+                            <p class="text">
+                                <label for="mensagem">Mensagem</label>
+                            <p> <textarea name="mensagem" id="msgb" cols="45" rows="5"
+                                    placeholder="Deixe sua mensagem!"></textarea></p>
+                            </p>
+                            <button type="submit">Enviar</button>
+                        </form>
+                </div>
 
-        <body>
-            <div id="formulario">
-                <fieldset id="usuario">
-                    <legend>Identificação do Usuário</legend>
+                <div id="calculadora">
 
-                    <form id="" method="post" onsubmit="validaForm(); return false;" class="form">
+                    
+                        <legend>Simulador de Preço oculos VR</legend>
+                        <p>Simule a compra de 1 ou mais Playstation VR </p>
+                        <p>Cor: <input type="color" name="corA" id="corB"></p>
+                        <p>Quantidade: <input type="number" name="quantB" id="quantA" min="1" max="100"></p>
+                        <p>Preço Total: R$ <input type="text" name="precoA" id="precoB" placeholder="Total a pagar"
+                                readonly /> </p>
+                 
 
-                        <p class="name">
-                            <label for="name">Nome</label>
-                            <input type="text" placeholder="Seu Nome" />
-                        </p>
-                        <p class="email">
-                            <label for="email">E-mail</label>
-                            <input type="text" placeholder="Digite seu email" />
-                        </p>
-                        <p class="text">
-                            <label for="mensagem">Mensagem</label>
-                            <p> <textarea name="mensagem" id="msgb" cols="45" rows="5" placeholder="Deixe sua mensagem!"></textarea></p>
-                        </p>
-                        <p class="submit">
-                            <input type="image" value="Enviar" id="botao" src="/_imagens/botao-enviar.png" />
                     </form>
-            </div>
-
-            <div id="calculadora">
-
-                <fieldset id="simulador">
-                    <legend>Simulador de Preço oculos VR</legend>
-                    <p>Simule a compra de 1 ou mais Playstation VR </p>
-                    <p>Cor: <input type="color" name="corA" id="corB"></p>
-                    <p>Quantidade: <input type="number" name="quantB" id="quantA" min="1" max="100"></p>
-                    <p>Preço Total: R$ <input type="text" name="precoA" id="precoB" placeholder="Total a pagar" readonly/> </p>
-                </fieldset>
-
-                </form>
+                </div>
             </div>
 
 
-
-            <footer id="rodape">
-                <br/>
-                <h3>Copyright 2022 - by Eduardo Leite<br/>
-                    <a href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/" target="_blank">Linkedin</a> |
-                    <a href="https://api.whatsapp.com/send?phone=5588999257652" target="_blank"> Whatsapp</a></h3>
-            </footer>
     </div>
-    </body>
+    <footer id="rodape">
+        <p>Copyright 2022 - by Eduardo Leite<br />
+            <a href="https://www.linkedin.com/in/eduardo-leite-78620b1a3/" target="_blank">Linkedin</a> |
+            <a href="https://api.whatsapp.com/send?phone=5588999257652" target="_blank"> Whatsapp</a>
+        </p>
+    </footer>
+</body>
 
 </html>
